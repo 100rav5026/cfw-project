@@ -1,0 +1,6 @@
+{
+    "editor.autoIndent": "none",
+    "html.format.wrapAttributes": "preserve",
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "javascript.preferences.jsxAttributeCompletionStyle": "auto"
+}
