@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import SliderOneImage from "./SliderOneImage";
 import SliderOneContent from "./SliderOneContent";
 import HomePartThree from "./homePartThree";
+import HomePartFour from "./homePartFour";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SliderOneImage/>
       <SliderOneContent/>
       <HomePartThree/>
+      <HomePartFour/>
     </div>
   );
 }
