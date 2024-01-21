@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: "Lemon", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    max-height: 80px;
+    border-radius: 50px;
+  }
+  
+  .navigation-options {
+    display: flex;
+    align-items: center;
+    margin-right: 450px;
+    cursor: pointer;
+  }
+  
+  .navigation-options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation-options li {
+    margin-right: 40%;
+  }
+  
+  .navigation-options a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .content {
+    width: 100%;
+  }
+  
+  .small-text {
+    font-size: 15px;
+  }
+
+  .homePartThree{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .homePartThreeComponent{
+    display: flex;
+    flex: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homePartThreeComponent p{
+    width: 80%;
+    text-align: center;
+  }
