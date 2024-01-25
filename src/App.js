@@ -10,7 +10,7 @@ import ShippingPolicy from "./ShippingPolicy";
 function App() {
   return (
     <div className="App">
-<Router basename="/">
+      <Router basename="/">
         <Navbar/>
         <Routes> 
           <Route exact path="/" element={<Home/>}/>
