@@ -3,7 +3,7 @@ import React from 'react';
 const HomePartThreeComponent = (props) => {
   return (
     <div className="homePartThreeComponent">
-        <h1>{props.number}</h1>
+        <img src={props.number} alt='number'/>
         <h2>{props.header}</h2>
         <p>{props.para}</p>
     </div>
