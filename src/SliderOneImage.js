@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SliderOne from './images/homeSlideOne.jpg'
 

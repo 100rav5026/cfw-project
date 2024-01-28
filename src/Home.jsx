@@ -4,6 +4,8 @@ import SliderOneContent from "./SliderOneContent";
 import HomePartThree from "./homePartThree";
 import HomePartFour from "./homePartFour";
 import Footer from './footer';
+import SliderTwoImage from './SliderTwoImg';
+import HomePartFive from './homePartFive';
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <SliderOneContent/>
       <HomePartThree/>
       <HomePartFour/>
+      <SliderTwoImage/>
+      <HomePartFive/>
       <Footer/>
     </div>
   );
