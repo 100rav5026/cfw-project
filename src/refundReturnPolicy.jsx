@@ -3,6 +3,7 @@ import React from 'react';
 const RefundReturn = () => {
   return (
     <div className="refundReturn">
+    <br/>
     <h1 class="entry-title">Refund and Returns Policy</h1>
       <div class="entry-content">
 			

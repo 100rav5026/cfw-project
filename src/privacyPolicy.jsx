@@ -3,6 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
   return (
     <div className="privacyPolicy">
+    <br/>
     <h1 class="entry-title">Privacy Policy</h1>
     <div class="entry-content">
 			
