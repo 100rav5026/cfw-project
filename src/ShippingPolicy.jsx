@@ -3,6 +3,7 @@ import React from 'react';
 const ShippingPolicy = () => {
   return (
     <div className="shippingPolicy">
+    <br/>
     <h1 class="entry-title">Shipping Policy</h1>
 <div class="entry-content">
 			

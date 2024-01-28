@@ -3,6 +3,7 @@ import React from 'react';
 const TermsConditions = () => {
   return (
     <div className="termsConditions">
+      <br/>
       <h1 class="entry-title">Terms &amp; Conditions</h1>
 
       <div class="entry-content">
