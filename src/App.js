@@ -6,6 +6,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import PrivacyPolicy from "./privacyPolicy";
 import RefundReturn from "./refundReturnPolicy";
 import ShippingPolicy from "./ShippingPolicy";
+import Registration from "./Registration";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/RefundReturnPolicy" element={<RefundReturn/>}/>
           <Route path="/ShippingPolicy" element={<ShippingPolicy/>}/>
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
-          <Route path="/Contact" element={<TermsConditions/>}/>
+          <Route path="/Registration" element ={<Registration/>}/>
         </Routes>
       </Router>
     </div>

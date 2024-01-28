@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from './footer';
+
 
 const PrivacyPolicy = () => {
   return (
@@ -125,6 +127,7 @@ const PrivacyPolicy = () => {
 </ul>
 					</div>     
                               </div>
+
                                   )
 };
 
