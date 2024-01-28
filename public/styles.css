@@ -77,6 +77,16 @@ body {
     color: white;
 }
 
+.overlay-text h1{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 30%;
+    font-size: 40px;
+    font-weight: 1500;
+    z-index: 30;
+}
+
 .content {
     width: 100%;
 }
@@ -137,6 +147,66 @@ body {
 .homePartThreeComponent p {
     width: 80%;
     text-align: center;
+}
+
+.home-part-five{
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-part-five hr{
+  width: 100px;
+  height: 2px;
+  margin-bottom: 25px;
+  background-color: #080808;
+}
+
+.home-part-five h1{
+  margin-bottom: 0;
+}
+
+.home-part-five-images-box{
+  display: flex;
+  padding: 8%;
+}
+
+.image-box-five{
+  height: 1200px;
+  width: 900px;
+  margin-bottom: 5%;
+}
+
+.home-part-five-images-left-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.home-part-five-images-right-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.home-part-five-images-right-box-top{
+  display: flex;
+  height: 10%;
+}
+
+.home-part-five-images-right-box-middle{
+  display: flex;
+}
+
+.home-part-five-images-right-box-bottom{
+  display: flex;
+  height: 10%;
+}
+
+.designer-logo{
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
 .footer{
