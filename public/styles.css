@@ -550,6 +550,17 @@ li {
     width: 70%;
 }
 
+.registration-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp-class{
+    margin-bottom: 20px;
+}
+
 .elementor-widget-wrap-reg-content {
     text-align: center;
 }

@@ -7,9 +7,9 @@ import numberThree from './images/number_three.jpg';
 const HomePartThree = () => {
   return (
     <div className="homePartThree">
-        <HomePartThreeComponent number = {numberOne} header = "ENJOY CONTRAST" para = "Lorem ipsum dolor sit amet, conse tetur adipi scing elit, sed do icim elienit eiusmod teorlaboret dolore."/>
-        <HomePartThreeComponent number = {numberTwo} header = "TOP BLOGGING" para = "Lorem ipsum dolor sit amet, conse tetur adipi scing elit, sed do icim elienit eiusmod teorlaboret dolore."/>
-        <HomePartThreeComponent number = {numberThree} header = "CREATIVE STYLE" para = "Lorem ipsum dolor sit amet, conse tetur adipi scing elit, sed do icim elienit eiusmod teorlaboret dolore."/>
+        <HomePartThreeComponent number = {numberOne} header = "ENJOY CONTRAST" para = "Explore the captivating interplay of bold contrasts at our fashion week, where juxtaposed elements redefine sartorial boundaries."/>
+        <HomePartThreeComponent number = {numberTwo} header = "TOP NOTCH QUALITY" para = "Experience runway elegance that transcends trends our fashion week sets the standard for unparalleled style and sophistication."/>
+        <HomePartThreeComponent number = {numberThree} header = "CREATIVE STYLE" para = "Our fashion week showcases avant-garde creativity, where style becomes a canvas for innovative expression."/>
     </div>
   );
 };
