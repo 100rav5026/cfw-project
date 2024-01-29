@@ -15,7 +15,6 @@ function App() {
         <Navbar/>
         <Routes> 
           <Route exact path="/" element={<Home/>}/>
-          <Route path="/About" />
           <Route path="/TermsConditions" element={<TermsConditions/>}/>
           <Route path="/RefundReturnPolicy" element={<RefundReturn/>}/>
           <Route path="/ShippingPolicy" element={<ShippingPolicy/>}/>

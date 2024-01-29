@@ -45,13 +45,12 @@ const Navbarmenu = () => {
                         <li  className="menu-item" >
                             <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                         </li>
-                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
                         <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Policies <FiChevronDown /> </Link>
                             <ul className={boxClassSubMenu.join(' ')} > 
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/TermsConditions`}>TermsConditions </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/RefundReturnPolicy`}> RefundReturnPolicy </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/ShippingPolicy`}>ShippingPolicy </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/PrivacyPolicy`}>PrivacyPolicy </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/TermsConditions`}>Terms & Conditions</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/RefundReturnPolicy`}>Refund & Return Policy</NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/ShippingPolicy`}>Shipping Policy</NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/PrivacyPolicy`}>Privacy Policy</NavLink> </li>
 
                             </ul>
                         </li>
