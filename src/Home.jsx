@@ -6,6 +6,9 @@ import HomePartFour from "./homePartFour";
 import Footer from './footer';
 import SliderTwoImage from './SliderTwoImg';
 import HomePartFive from './homePartFive';
+import HomePartSix from './homePartSix'
+import HomePartSeven from './homePartSeven';
+
 
 const Home = () => {
   return (
@@ -16,6 +19,8 @@ const Home = () => {
       <HomePartFour/>
       <SliderTwoImage/>
       <HomePartFive/>
+      <HomePartSix/>
+      <HomePartSeven/>
       <Footer/>
     </div>
   );
