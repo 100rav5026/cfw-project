@@ -77,12 +77,22 @@ body {
     color: white;
 }
 
-.overlay-text h1 {
+.overlay-text h1{
     position: absolute;
     color: white;
     top: 40%;
     left: 30%;
     font-size: 40px;
+    font-weight: 1500;
+    z-index: 30;
+}
+
+.overlay-text p{
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 37%;
+    font-size: 35px;
     font-weight: 1500;
     z-index: 30;
 }
