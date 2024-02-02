@@ -8,6 +8,7 @@ import SliderTwoImage from './SliderTwoImg';
 import HomePartFive from './homePartFive';
 import HomePartSix from './homePartSix'
 import HomePartSeven from './homePartSeven';
+import SliderThreeImage from './SliderThreeImg';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <HomePartFour/>
       <SliderTwoImage/>
       <HomePartFive/>
+      <SliderThreeImage/>
       <HomePartSix/>
       <HomePartSeven/>
       <Footer/>

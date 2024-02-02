@@ -8,11 +8,11 @@ const HomePartFour = () => {
         <img src={makeup} alt="MakeupImage" />
       </div>
       <div className="right-section-four">
-        <h2>INDIA'S LARGEST FASHION WEEK</h2>
-        <h3>Runway Radiance: A week of Fashion Finesse.</h3>
+        <h2>MAKEUP ARTIST</h2>
+        <h3>Crafting beauty brushstroke by brushstroke.</h3>
         <hr className="home-part-four-hr"/>
         <p>
-            Strutting through the runway of life with the style and grace. Embracing the runway lights at Fashion Week. Fashion enthusisast, trendsetter and a touch of  glam.
+            Unlock your artistic potential – join Cudwarm Fashion Week and showcase your makeup mastery on the grand canvas of high-fashion runways.
         </p>
       </div>
     </div>
