@@ -49,7 +49,7 @@ const Navbarmenu = () => {
                             <ul className={boxClassSubMenu.join(' ')} > 
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/TermsConditions`}>Terms & Conditions</NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/RefundReturnPolicy`}>Refund & Return Policy</NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/ShippingPolicy`}>Shipping Policy</NavLink> </li>
+                                {/* <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/ShippingPolicy`}>Shipping Policy</NavLink> </li> */}
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/PrivacyPolicy`}>Privacy Policy</NavLink> </li>
 
                             </ul>
