@@ -5,11 +5,11 @@ import Footer from './footer';
 
 const Registration = () => {
     return (
-        <div><RegistrationImageOne/>
-        <Footer/>
+        <div><RegistrationImageOne />
+            <Footer />
 
- </div>    
-)
+        </div>
+    )
 };
 
 export default Registration;

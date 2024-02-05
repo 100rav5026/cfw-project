@@ -9,7 +9,7 @@ import HomePartFive from './homePartFive';
 import HomePartSix from './homePartSix'
 import HomePartSeven from './homePartSeven';
 import SliderThreeImage from './SliderThreeImg';
-
+import SliderFour from './SliderFour';
 
 const Home = () => {
   return (
@@ -21,6 +21,7 @@ const Home = () => {
       <SliderTwoImage/>
       <HomePartFive/>
       <SliderThreeImage/>
+      <SliderFour/>
       <HomePartSix/>
       <HomePartSeven/>
       <Footer/>

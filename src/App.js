@@ -7,17 +7,19 @@ import PrivacyPolicy from "./privacyPolicy";
 import RefundReturn from "./refundReturnPolicy";
 import ShippingPolicy from "./ShippingPolicy";
 import Registration from "./Registration";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router basename="/">
         <Navbar/>
+          <ScrollToTop/>
         <Routes> 
           <Route exact path="/" element={<Home/>}/>
           <Route path="/TermsConditions" element={<TermsConditions/>}/>
           <Route path="/RefundReturnPolicy" element={<RefundReturn/>}/>
-          <Route path="/ShippingPolicy" element={<ShippingPolicy/>}/>
+          {/* <Route path="/ShippingPolicy" element={<ShippingPolicy/>}/> */}
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
           <Route path="/Registration" element ={<Registration/>}/>
         </Routes>
