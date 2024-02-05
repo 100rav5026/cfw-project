@@ -1,6 +1,7 @@
 import React from "react";
 import slider1 from "./images/slider-1.jpg";
 import slider2 from "./images/slider-2.jpg";
+import the from "./images/the-img.jpg";
 
 const SliderFour = () => {
 
@@ -8,9 +9,10 @@ const SliderFour = () => {
         <div>
             <div className="row-slider-four" >
                 <div class="column-slider-four">
-                    <h1>The FASHION MODEL</h1>
-                    <p className="slider-four-para">A collection of elegant styles
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis mauris nulla ut sapien dictum</p>
+                    <img className="the-img" src={the} alt="the-img"/>
+                    <h1>FASHION MODEL</h1>
+                    <span>A collection of elegant styles.</span>
+                    <p className="slider-four-para">Elevate the runway experience with a fusion of trendsetting style and effortless sophistication – a fashion week like no other</p>
                 </div>
 
                 <div class="column-slider-four">

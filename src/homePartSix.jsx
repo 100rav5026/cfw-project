@@ -9,7 +9,7 @@ const HomePartSix = () => {
                 <img src={surajKund1} className="background-image-six" alt="imagebox" />
                 <div className="image-overlay-1">
                     <h1 className="partSix-h">CFW <span className="bigger-text">X</span> SURAJKAND</h1>
-                    <h2 className="partSix-h">Coming Soon</h2>
+                    <h2 className="partSix-h">We are Live Now!</h2>
                     <p className="partSix-h">Come visit us at Surajkund to unlock Exclusive Experiences!</p>
                     <p className="partSix-h">Stall no: 0033 Food Court</p>
                 </div>
