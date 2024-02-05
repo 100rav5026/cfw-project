@@ -18,7 +18,11 @@ Are you ready to showcase your style on the runway? The most anticipated event o
 <div class="button-main">
 <a  href="https://docs.google.com/forms/d/e/1FAIpQLSdC8j3SaqBRdmorMhTU8r_iXrc_1ZPhXBpTQSe7HjlDUeMMEA/viewform?usp=sharing" target="_other">
 <button className='button' >Register Now!!!</button>
-</a> </div>
+</a>
+<a  href="www.google.com" target="_other">
+<button className='button' >Pay Now</button>
+</a> 
+</div>
 </div>
 </div>
 </div>
