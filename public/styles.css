@@ -24,7 +24,7 @@ body p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
-    height: 60px;
+    height: 80px;
     width: 100%;
     z-index: 10;
 }
@@ -323,10 +323,6 @@ p {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
 }
 
 img {
@@ -538,6 +534,19 @@ li {
     }
 }
 
+@media only screen and (max-width: 767px) {
+  
+    .homePartThree{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .homePartThreeComponent img{
+        height: 50%;
+    }
+
+}
+
 .menu-item .sub__menus a {
     padding: 7px 0 0px 0;
     margin: 7px 12px;
@@ -558,7 +567,7 @@ li {
 
 @media(max-width:991px) {
     .header__middle__logo {
-        width: 77%;
+        width: 5%;
     }
     .header__middle__menus {
         width: 20%;
@@ -580,7 +589,6 @@ li {
         color: #fff;
         padding: 6px 7px;
         border-radius: 5px;
-        margin: 27px auto 0;
         cursor: pointer;
         position: relative;
         z-index: 10037;
