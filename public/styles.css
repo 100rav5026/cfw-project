@@ -647,7 +647,7 @@ li {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 .registration-box p {
@@ -710,6 +710,7 @@ li {
 .image-container-2 {
     position: relative;
     text-align: center;
+    height: 600px;
 }
 
 .elementor-widget-wrap-1 {
