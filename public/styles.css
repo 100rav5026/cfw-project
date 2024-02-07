@@ -26,7 +26,7 @@ body p {
     top: 0;
     height: 80px;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 }
 
 .logo img {
@@ -115,10 +115,21 @@ body p {
 .content p {
     font-size: 22px;
     font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 15px;
 }
 
 .content h1{
     font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.content hr{
+    height: 5px;
+    background-color: #f9f9f7;
+    margin-left: 0;
+    width: 240px;
 }
 
 .small-text {
@@ -350,25 +361,34 @@ img {
 .Slider-Three-Content h1 {
     font-size: 70px;
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .Slider-Three-Content p {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0;
     font-family: 'Roboto',sans-serif;
 }
 
 .Slider-Three-Content hr {
     height: 5px;
     background-color: white;
+    width: 300px;
+    margin-left: 0;
+}
+
+.middle-box-footer, .right-box-footer{
+    margin-left: 0;
+    text-align: center;
+    align-items: center;
 }
 
 .right-section-four h2,
 h3 {
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .right-section-four h2{
@@ -381,6 +401,10 @@ h3 {
     font-size: 20px;
 }
 
+.right-section-four p{
+    margin-top: 10px;
+}
+
 .right-section-four hr {
     color: black;
     z-index: 2;
@@ -388,6 +412,10 @@ h3 {
     height: 5px;
     background-color: black;
     margin-left: 0;
+}
+
+.column-slider-four h1{
+    font-size: 40px;
 }
 
 .cfw_logo {
@@ -457,6 +485,16 @@ li {
     margin: 27px 17px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.column-slider-four span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.column-slider-four p{
+    font-size: 20px;
+    width: 80%;
 }
 
 .header__middle__logo {
@@ -536,15 +574,105 @@ li {
 
 @media only screen and (max-width: 767px) {
 
+    body p{
+        font-size: 18px;
+    }
+
+    .home{
+        display: inline-block;
+        overflow: hidden;
+    }
+
     .homePartThree{
         flex-direction: column;
         height: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .homePartThreeComponent img{
         height: 50%;
     }
 
+    .image-overlay{
+        width: 50%;
+    }
+
+    .content p{
+        font-size: 20px;
+    }
+
+    .content h1{
+        font-size: 30px;
+    }
+
+    .left-section-four{
+        display: flex;
+        align-items: center;
+    }
+
+    .right-section-four h2{
+        font-size: 30px;
+    }
+
+    .right-section-four h3{
+        font-size: 14px;
+    }
+
+    .designer-logo{
+        left: 28%;
+    }
+
+    .overlay-text h1{
+        font-size: 30px;
+        left: 9%;
+        top: 40%;
+    }
+
+    .overlay-text p{
+        font-size: 25px;
+        top: 45%;
+        left: 28%;
+    }
+
+    .home-part-five h1{
+        font-size: 30px;
+    }
+
+    .Slider-Three-Content h1{
+        font-size: 30px;
+    }
+
+    .Slider-Three-Content p{
+        font-size: 20px;
+    }
+
+    .column-slider-four h1{
+        font-size: 22px;
+    }
+
+    .column-slider-four p{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .column-slider-four span{
+        font-size: 16px;
+    }
+
+    .image-box-five{
+        height: auto;
+    }
+
+    .footer{
+    flex-direction: column;
+    height: 800px;
+    text-align: center;
+    }     
+
+    .footer-address{
+    width: 50%;
+    }
 }
 
 .menu-item .sub__menus a {
@@ -592,6 +720,7 @@ li {
         cursor: pointer;
         position: relative;
         z-index: 10037;
+        margin-right: 10px;
     }
     .main-nav .menubar__button svg {
         font-size: 27px;
@@ -835,20 +964,6 @@ li {
     padding-bottom: 15px;
     padding-top: 5px;
     padding-left: 20px;
-}
-
-.column-slider-four h1{
-    font-size: 40px;
-}
-
-.column-slider-four p{
-    font-size: 20px;
-    width: 80%;
-}
-
-.column-slider-four span{
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .the-img{

@@ -7,16 +7,16 @@ const Footer = () => {
             <h1>CFW</h1>
         </div>
         <div className='middle-box-footer'>
-            <h2>Follow Us</h2>
+            <h2>FOLLOW US</h2>
             <p>Instagram</p>
             <p>Youtube</p>
             <p>Facebook</p>
         </div>
         <div className='right-box-footer'>
-            <h2>Contact Us</h2>
+            <h2>CONTACT US</h2>
             <p>+91 8527981816</p>
             <p>parucreationsindia@gmail.com</p>
-            <p>86C, 2nd floor, Block-B, near Vita dairy block-B, sector 11, 121006, Faridabad, Haryana</p>
+            <p className='footer-address'>86C, 2nd floor, Block-B, near Vita dairy block-B, sector 11, 121006, Faridabad, Haryana</p>
         </div>
     </div>
   );
